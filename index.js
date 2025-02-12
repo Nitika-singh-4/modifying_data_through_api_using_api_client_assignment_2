@@ -5,7 +5,7 @@ const x = require('./schema')
 
 const app = express();
 const port = 3010;
-const URL = "mongodb+srv://db_assignment:vraj1204@cluster0.oz3ku.mongodb.net/"
+const URL = "mongodb+srv://nitikasingh262:nitika7238@cluster0.dymfi.mongodb.net/"
 app.use(express.json())
 mongoose.connect(URL,{useNewUrlParser:true,useUnifiedTopology:true}).then(
   ()=>{
